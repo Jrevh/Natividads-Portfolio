@@ -2711,6 +2711,33 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
+	/* Accomplishment icons: size, color, and alignment */
+	.features article .image {
+		/* let the icon block size to content and align with title */
+		display: inline-block;
+		vertical-align: middle;
+		width: auto;
+		padding-right: 1.25em;
+	}
+
+	.features article .image .accomplishment-icon {
+		display: inline-block;
+		font-size: 2.4rem;
+		line-height: 1;
+		color: #4acaa8; /* match site green */
+		vertical-align: middle;
+	}
+
+	.features article .image .accomplishment-icon + .accomplishment-icon {
+		margin-left: 0.4rem;
+	}
+
+	.features article .inner {
+		display: inline-block;
+		vertical-align: middle;
+		width: calc(100% - 6.5rem);
+	}
+
 /* Header */
 
 	#header {
