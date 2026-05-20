@@ -1,0 +1,504 @@
+Enterprise Resource Plan
+Happy Pixies Event Management System
+Group Number 2
+Group Members
+Maravilla, Geremy M.
+Natividad, Jearevh F.
+Naval, Matthew Cymig F.
+Submitted to
+Michelle Elija B. Santos
+Enterprise Resource Plan (ERP)
+1. Executive Summary
+Project Title: Happy Pixies Event Management System
+Organization/Department:
+Prepared By: Group 3
+Date: May 21, 2025
+Purpose: The ERP plan is designed to consolidate and streamline Happy Pixies' core business processes, a
+developing event management firm. The deployment of the ERP system will make service delivery more
+efficient, help in optimizing resources, and enable real-time decisions within departments like inventory,
+scheduling, finance, and logistics.
+2. Project Objectives
+This enterprise resource plan is designed to develop a digital event management system and aims to:
+● Increase operational efficiency
+● Integrate core business processes under a single system
+● Improve real-time reporting and business decision-making
+● Enhance data accuracy, accessibility, and security
+● Enable mobile-friendly and offline access for on-site events
+● Support staff scheduling and vendor coordination
+● Ensure financial accountability via invoicing and payment tracking
+3. Scope of the ERP System
+Inclusions:
+● Client Booking and CRM
+● Staff Scheduling and HR
+● Inventory and Warehouse Management
+● Finance: Invoicing, Budgeting, and Payments
+● Procurement and Vendor Coordination
+● Event Execution and Logistics Management
+Exclusions:
+● Full-scale e-commerce features (product selling)
+● Advanced AI-based event planning automation
+Geographic/Organizational Scope:
+● Head Office with support for mobile field operations during on-site events
+4. Current System Assessment
+Existing Systems:
+● Unused inventory tracking system
+● Manual contracts and invoices
+● Social media and messaging apps for bookings
+Pain Points:
+● Double-entry errors
+● Lack of real-time inventory updates
+● Manual scheduling inefficiencies
+Integration Challenges:
+● Revamping the existing inventory system and merging with database-driven modules
+● Staff adaptation to digital workflow
+User Feedback Summary:
+● For customers: Desire for faster booking management, especially in Social Media
+● Need for accessible records during events
+● Request for auto-generated documents
+5. Business Process Mapping
+Use the table below to map current vs future business processes:
+Business Process Current System (As-Is) Future Process with
+ERP (To-Be
+Expected Improvement
+Order Management
+(Client Booking &
+Event Execution)
+Bookings are handled
+manually via Walk-in or
+Facebook messages
+consultations. Event
+details are stored in
+notebooks or
+spreadsheets.
+Clients submit inquiries
+through an online form.
+ERP generates
+quotations/contracts,
+tracks bookings,
+payments, and
+timelines. Alerts for
+pending tasks.
+Automated tracking,
+minimized errors, faster
+quotation turnaround,
+improved coordination
+from inquiry to
+post-event cleanup.
+Finance & Accounting
+(Payments &
+Budgeting)
+Uses receipts, notes,
+and basic accounting
+tools. Payment stages:
+downpayment, second
+deposit (for big events),
+and final payment.
+Manual budgeting per
+event.
+ERP logs payments per
+client, links them to
+project/event budgets,
+and generates real-time
+financial reports.
+Automatic alerts for
+pending payments.
+Accurate tracking of
+multi-stage payments,
+easier reporting, faster
+budget preparation,
+and improved financial
+transparency.
+Staff Assignment &
+Scheduling
+Staff availability is
+collected manually
+each semester.
+Assignments are done
+through Messenger. No
+centralized scheduling.
+ERP stores staff
+availability, automates
+scheduling based on
+event needs, and sends
+notifications.
+Dashboard for
+real-time status
+Fewer
+miscommunications,
+faster scheduling,
+better oversight of
+part-timers, fewer
+delays from lateness or
+no-shows.
+Tracking Staff During
+Events
+Messenger group
+updates and photo
+submissions. Managers
+oversee on-site work.
+Logistics are handled
+manually.
+Mobile ERP app allows
+staff to check in/out
+and submit
+updates/photos.
+Managers monitor
+assignments in
+real-time.
+Real-time visibility of
+team progress, faster
+issue resolution, and
+increased
+accountability.
+Inventory
+Management (Tracking
+Reusable Decorations
+& Supplies)
+Manual checks after
+events. General
+cleaning and
+assessment days later.
+No consistent digital
+inventory.
+ERP tracks item
+check-out/return with
+condition status.
+Inventory levels and
+reusable stock are
+automatically updated.
+Improved resource
+tracking, less item
+loss/damage, and
+accurate availability
+checks before event
+planning.
+Supply Chain
+Management (Logistics
+& Vendor
+Coordination)
+Orders placed via
+chat/phone. Vendor
+reliability is managed
+informally.
+Missing/delayed
+materials are common.
+ERP issues purchase
+orders, tracks vendor
+performance, logs
+expected delivery
+timelines, and flags
+delays.
+Consistent vendor
+records, improved
+delivery timelines, and
+more reliable materials
+sourcing.
+E-commerce & Digital
+Transformation
+Active on Facebook but
+slow inquiry response.
+Digital contracts are
+used. No integrated
+booking or e-commerce
+platform.
+ERP integrates online
+booking forms, package
+previews, digital
+contract signing, and
+payment options.
+Facebook inquiry
+response is automated.
+Streamlined
+inquiry-to-booking
+process, reduced
+manual coordination,
+enhanced client
+convenience and
+professionalism.
+6. ERP Software Requirements
+Functional Requirements:
+● Multi-user access, booking, inventory, scheduling, invoicing, and reporting
+Technical Requirements:
+● Web-based system, mobile support, offline mode during events
+Security Requirements:
+● User authentication, role-based access, data encryption
+Integration Needs:
+● Google Workspace integration, third-party logistics APIs
+Reporting & Analytics Needs:
+● Event-based dashboards, financial reports, scheduling insights
+7. Software and Vendor Selection
+List of Candidate Vendors
+● Zoho One - a unified business software suite designed for small and growing companies, offering
+tools for CRM, finance, HR, project management, and operations in a single platform.
+● Oracle Fusion Cloud – Enterprise-grade cloud applications for finance, HR, and more.
+● Microsoft Dynamics 365 – Modular business apps for CRM, finance, and operations
+● NetSuite by Oracle – Cloud ERP for growing small to mid-sized businesses
+● Acuity Scheduling or Calendly – Booking and appointment scheduling
+Selection Criteria and Weighting
+Criteria Description Weight (%)
+Ease of Use Intuitive for non-technical staff 20%
+Cost Upfront and ongoing affordability 25%
+Functionality Supports project tracking, invoicing, CRM, and scheduling 20%
+Integration Connects with calendar, email, and payment tools 15%
+Customer
+Support
+Help documentation, onboarding, live support 10%
+Scalability Ability to grow with business needs 10%
+Final Recommendation: Zoho One
+Zoho One is tailored for small businesses as its features are designed to meet the diverse requirements
+of small businesses like Happy Pixies without requiring a specific technical team. It's one-click simplicity
+brings together essential features like CRM, booking, invoicing, campaign management, and project
+tracking into a single suite. This business management software also comes at an affordable price, with
+minimal monthly per-user cost and no additional enterprise-level fees, making it ideally suited for
+budget-friendly operations.
+With rapid setup, organizations can begin to take advantage of their core functionality in days and not
+months. As the business evolves, Zoho One is also scalable, with additional apps and features being
+added as business complexity increases.
+8. Implementation Plan
+Document phases and responsibilities:
+Phase Activities Start Date End Date Duration Responsible
+Party
+Project
+Initiation
+Kick-off
+meeting,
+stakeholder
+alignment,
+team
+assignments
+April 1, 2025 April 10, 2025 2 weeks Project
+Manager
+Requirements
+Analysis
+Gather
+business
+requirements,
+user stories,
+and functional
+specs
+April 11, 2025 May 10, 2025 1 month Business
+Analyst
+System Design Create UI
+mockups,
+system
+architecture,
+and database
+schema
+May 11, 2025 June 15, 2025 5 weeks Solution
+Architect / UX
+Designer
+Development
+Phase 1
+Core modules:
+booking,
+inventory,
+scheduling
+June 16, 2025 August 15,
+2025
+2 months Lead
+Developer /
+Development
+Team
+Development
+Phase 2
+Add-on
+modules:
+vendor
+coordination,
+invoicing,
+mobile
+interface
+August 16,
+2025
+September 30,
+2025
+1.5 months Lead
+Developer /
+Development
+Team
+Testing & QA Unit testing,
+integration
+testing, UAT
+with client
+October 1,
+2025
+October 31,
+2025
+1 month QA Lead / Test
+Engineers
+Deployment &
+Training
+System launch,
+user training,
+documentatio
+n handoff
+November 1,
+2025
+November 30,
+2025
+1 month DevOps
+Engineer /
+Training
+Coordinator
+Project
+Closure
+Project
+evaluation,
+final report,
+knowledge
+transfer
+December 1,
+2025
+December 15,
+2025
+2 weeks Project
+Manager
+9. Resource Allocation
+Project Team:
+● Sponsor: Michael Naval
+● Project Manager: Jearevh Natividad
+● Functional Leads: Assigned during each project phase
+● Technical Experts: Geremy Maravilla
+● Change Management Lead: Matthew Naval
+Budget Estimate:
+● Software Costs: PHP 500,000 – 1,000,000
+● Hardware Costs: PHP 100,000
+● Training: PHP 50,000
+● Contingency: PHP 150,000
+● Total Estimate: PHP 1.3M – 1.6M
+10. Change Management Plan
+Communication Strategy
+● Primary Channels:
+○ Group Chat: A dedicated group chat via Facebook Messenger will be used for quick
+updates and coordination.
+○ Notice Boards: Printed updates and step-by-step guides will be posted on the office
+bulletin board or shared via email for easy reference.
+○ Weekly Check-Ins: A short team meeting (15–20 minutes) every week to share progress,
+address questions, and gather feedback.
+● Documentation:
+Printed manuals and simple digital guides (PDF format) will be shared via Google Drive or
+printed for office use.
+Stakeholder Engagement
+● Team Inclusion:
+Employees will be involved early in the process through discussions and brainstorming sessions
+to raise concerns, suggest improvements, and understand how the ERP will help their daily tasks.
+● Feedback Collection:
+Feedback will be collected informally through one-on-one conversations, suggestion boxes, or a
+short monthly Google Form.
+Internal Champions:
+Select 1–2 employees with strong familiarity in business operations will be trained ahead of
+others and act as "go-to" people during and after implementation.
+Training Programs
+● On-Site Training Sessions:
+Brief training sessions (30–60 minutes each) conducted in small groups or individually
+depending on employee roles.
+● Quick Reference Guides:
+Each user will receive a printed cheat sheet or laminated card with common ERP tasks and steps
+(e.g., “How to record a sale” or “How to check inventory”).
+● Follow-up Support:
+For the first 2–3 weeks after go-live, employees can get one-on-one help from the internal
+champion or project manager for troubleshooting.
+Resistance Management
+● Personalized Orientation:
+Before training, a casual team talk will be held to explain why the ERP is needed (e.g., to reduce
+paperwork, avoid errors, save time). This sets the tone for openness.
+● Gradual Introduction:
+New features will be introduced one at a time to avoid overwhelming the team. For example,
+start with inventory tracking, then later add sales reporting.
+● Encouragement and Patience:
+Management will maintain an open-door policy for concerns. Employees will be reminded that
+mistakes are okay during the learning period.
+● Recognition:
+Employees who actively help others or learn quickly will be recognized during team
+meetings—simple gestures like snacks, thank-you notes, or verbal appreciation go a long way.
+11. Risk Assessment and Mitigation
+Risk Management Process
+1. Risk Identification – Conducted during planning and design stages.
+2. Risk Analysis – Assess likelihood and impact.
+3. Risk Mitigation Planning – Define actions to reduce or eliminate risk.
+4. Monitoring and Review – Weekly updates and risk status review
+Risk Assessment Matrix
+Risk Probability Impact Mitigation Strategy
+Staff resistance to the
+new system
+Medium High Conduct orientation and involve them in
+testing
+Data migration issues High High Validate data early and use data templates
+Technical bugs in
+deployment
+Medium High Conduct thorough testing and phased rollout
+Internet downtime
+during events
+High Medium Ensure offline access is available
+Budget overrun Low High Maintain a contingency fund and regular
+budget tracking
+12. Evaluation Metrics
+To quantify the effect of installing an integrated business management system on an event planning
+business, an official Key Performance Indicators (KPI) plan will be created. The KPIs will also be in line
+with the business priorities and strategic goals of the company, providing measurable indicators to track
+system performance, efficiency, and quality of service improvements.
+To gauge operational effectiveness, the following KPIs are planned to be used:
+● Average planning time per event
+● Number of events attended per employee per month
+● Reduction in percentage of human coordination activities (i.e., emails, calls)
+These measurements will serve to show how automation impacts administrative workload and
+throughput among planning and execution teams.
+In order to assess the level of system integration among core business processes, the research will
+measure:
+● Number of processes centralized (e.g., booking, invoicing, vendor management)
+● Percentage of active users using the system on a regular basis
+● Time gained through fewer tool switches between platforms
+These KPIs will help gauge if the company is running more efficiently with an integrated software
+environment. Besides making real-time reporting and decision-making possible, the following KPIs will
+also be monitored:
+● Average time to produce financial or operating reports
+● Decision-makers' use of dashboard frequency
+● System-generated information-based ratio of decisions
+● Client feedback response time
+These measures will illustrate ways in which data visibility and accessibility promote timely,
+knowledge-based decision-making at both operational and management levels.
+In order to ensure data accuracy, accessibility, and security, the company will track:
+● Booking error rate (duplicate or incorrect bookings)
+● % of client/vendor files stored safely in electronic form
+● Mean time to get event-related information
+● Incident or data breach rate related to access
+These controls will keep information assets up to date and protected, enabling timely execution and
+compliance.
+Considering the mobile and location-based characteristics of event operations, the following
+mobile-supportive and offline-enabled KPIs will be considered:
+● Percentage of work performed on-site utilizing mobile devices
+● Offline sync success rate
+● Employee-provided mobile usability scores
+● Frequency breakdown of mobile equipment usage at events
+These measurements will be leveraged to enable team agility and support real-time field operations,
+even in low-connectivity scenarios. To record staff and vendor coordination, the system will capture:
+● Shift confirmation and fill rates
+● Mean monthly rate of scheduling conflict or revision
+● Average vendor response time to inquiries
+● Staff no-show rate by event
+These KPIs will be instrumental in maintaining service reliability and operational readiness, especially
+during high-pressure hours. Lastly, to ensure fiscal responsibility by payment and billing control, the
+system will track:
+● Invoice accuracy rate
+● Event finalization-invoicing lag time
+● Ratio of payments accepted within 14 or 30 days
+● Amount of outstanding receivables
+These financial factors will assist the company in ensuring good cash flow, reducing billing discrepancies,
+and enhancing collection effectiveness.
+Approval
+By signing this document, the following individuals acknowledge and approve the project.
+Project Sponsor:
+Michael U. Naval
+Co-owner, Happy Pixies
+[Signature]
+3/29/25
+Project Manager:
+Jearevh Natividad
+Project Manager
+[Signature]
+3/29/25
+Subject Adviser:
+Michelle Elijah Santos
+Subject Adviser, Project Management
+[Signature]
+3/29/25

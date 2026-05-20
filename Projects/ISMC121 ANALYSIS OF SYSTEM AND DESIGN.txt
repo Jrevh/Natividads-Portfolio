@@ -1,0 +1,244 @@
+ISMC121 ANALYSIS OF SYSTEM AND DESIGN
+Final Exam
+Second Semester SY 2023-2024
+Department of Computer Science
+Comic Shop Frialde Digital Transformation Initiative
+Your Comic Shop Frialde
+Group 7
+Jearevh Natividad
+John Ralph Solero
+Jerome Patrick Tayco
+Submitted to
+Michelle Elija B. Santos
+1 PROJECT DESCRIPTION
+The Comic Shop Frialde Digital Transformation Initiative aims to provide a fully
+integrated web-based application for Your Comic Shop Frialde. The project expects to deliver an
+e-commerce platform for both staff and customers of Your Comic Shop Frialde. Customers will
+be able to purchase comic books in a way that they can monitor and track their transactions
+more accurately and experience transparency through the web application. Staff will be able to
+efficiently manage inventory and customer transactions.
+2 BACKGROUND OF THE PROJECT
+This project addresses the inventory management of the current system. Experiencing
+this tedious process during his part-time work for the business, Jearevh has always thought of
+ways on how to address this problem. Deleting bought comics from facebook albums with 1000
+to 2000 images of comics averagely takes 1 to 2 hours. A sale each month averagely aims to
+open 12 to 18 facebook albums in a span of 3 to 8 days with a billing period 3 to 5 days after the
+sale period. This puts staff on the clock, prioritizing the billing process before starting on the
+deleting process amidst having similar execution of tasks. In addition, facebook can also hinder
+access because of repetitive actions such as scrolling through multiple albums successively or
+jumping from one image to another quickly.
+Problems:
+1. Tedious processes
+a. Manual billing process
+b. Inventory process
+c. Removes unnecessary re-upload process due to bogus buyers
+d. Problems in Facebook management
+2. Schedule constraints
+a. Each sale period is scheduled every month where albums should be ready for display.
+b. After the sale period, billing also starts every month which necessitates staff to solely
+prioritize the billing process.
+3 SIGNIFICANCE OF THE PROJECT
+The project will smoothen transactions, improve inventory management, and increase
+customer interaction. The idea is to address present inefficiencies and deliver a more seamless
+purchasing procedure and efficient inventory management. The proposed system will require
+less staff for inventory management and billing as the web application innately does these
+processes. This will also remove the monthly sale constraint as the processes will happen
+instantaneously, removing the requirements of a deleting and billing period in the business
+schedule. The system also introduces transparency for customers for each transaction they do
+with the business. Overall, this web-application reduces the number of manual processes and
+an opportunity for numerous digital improvements for the business.
+4 CURRENT SYSTEM
+As explained in the background section, the main processes that this project addresses
+is the deletion and billing processes. Deleting process spans for around 4 to 10 days depending
+on the amount of albums required to process and the number of comics that are bought in each
+album. An album with less sales is processed faster because there are few images to delete.
+Albums with a large number of sales require much more time because each image has to be
+deleted one by one. An image with multiple copies of a comic will have a comment displaying
+how many comic stock of that specific comic are left, and the other comments that indicated
+previous purchase are deleted. This ensures that for the next deletion process, staff can easily
+determine how many copies are left and in the billing process, which are the new purchases.
+Billing process is much faster, noting how many copies a customer buys from an album with a
+corresponding album price.
+4.1 Business Processes
+Transaction Processes
+This process encompasses the entire lifecycle of a customer’s purchase, from browsing
+products to completing a purchase order.
+Inventory Database
+This process manages the inventory of comic books, ensuring accurate stock levels and
+efficient restocking.
+Customer Database
+This process involves managing customer information to support personalized service
+and marketing efforts.
+Inventory management
+This process involves the preparation of comic books from pricing to packaging, and the
+management of comic books to be uploaded for sale.
+4.2 Process Flow Diagram of the current business processes
+The organization has a simple
+step-by-step procedure for
+managing comic book transactions
+from product pricing to managing
+orders. We identified 7 processes,
+starting with product pricing. After
+receiving a batch of new comic
+books, each book is priced based
+on its current market value. Each
+book is then sorted by name
+before entering the packaging stage. After packing each book, they are cataloged using a
+phone. Photos are then uploaded to Facebook albums in the Shop account. The albums are
+then opened to the public, starting the sales period, which ends after a certain amount of time.
+After closing the albums, each book in each album is scanned for purchase. Purchases are
+recorded, and messages to buyers are sent to confirm the order.
+5 PROPOSED SYSTEM
+The proposed system is a web-based application designed to automate and streamline
+business processes. It will include modules for automated transactions, real-time inventory
+management, and comprehensive sales analytics. The system will also maintain a robust
+customer database and enhance website functionality.
+5.1 Process Flow Diagram
+Customer Process Flow Diagram
+This process flow diagram shows the perspective of the customer
+in using the system. The system prompts the user to log-in or
+create an account to access the website. Afterwards, they are
+directed to the home page where they can browse categories and
+items. The user can purchase their desired item. In the cart
+system, the user is required to input their address to complete the
+checkout process if they haven't done so already during the
+signup process. The user can track the item’s status order.
+Staff Process Flow Diagram
+This process flow diagram shows the perspective of the staff in using the system. The
+staff can either upload comic books or just check the current inventory. The staff can upload
+new comic books into existing categories or create a new category. The uploaded comic books
+are stored in the database.
+5.2 Data Flow Diagram
+Level 0 Diagram
+This shows the proposed Level 0 diagram of the system. Processes 1-4, which is the
+preparation stage, are still the same as the current system. Process 5, which is the manipulation
+of the inventories, now accesses the website database, and process 6 now displays the website
+inventory. Process 7 also now happens within the website automatically rather than manually.
+Process 5 Explosion Diagram
+In process 5, the system allows staff to create categories before uploading the comic
+book catalog. Also, comic books that have been successfully purchased are deleted from the
+system.
+Process 7 Explosion Diagram
+In process 7, the order of the customer goes to the cart. After checking-out the items, the
+details of purchase goes to the customer database to record customer transaction history.
+5.3 CRUD Matrix
+Module Customer Employee/Staff Manager
+Product R C, R, U, D C, R, U, D
+Order C, R, U, D R, D C, R, U, D
+Account C, R, U R C, R, U, D
+Inventory - C, R, U, D C, R, U, D
+Sales - C, R, U, D C, R, U, D
+This ensures that all necessary data operations are well-managed across the system's
+modules for each user role. By detailing the specific operations for Products, Orders, Accounts,
+Inventory, and Sales, the Comic Shop Frialde Digital Transformation Initiative aims to streamline
+processes, enhance inventory management, improve customer account management, and
+provide valuable sales analytics, ultimately leading to a more efficient and transparent business
+operation.
+5.4 Functional and Non-Functional Requirements
+Functional Requirements Non-Functional Requirements
+Automated transaction processing System reliability and uptime
+Real-time inventory updates Data security and privacy
+Sales data analytics and reporting User-friendly interface
+Customer database management Scalability for future growth
+Website order management Fast performance and response times
+5.5 User Stories
+Transaction Processes
+● As a customer, I can add comic books to my shopping cart, so that I can easily purchase
+multiple items in one transaction.
+● In order to track my purchase history as a customer, I can view my past orders.
+Sales Analytics
+● As a manager, I can view sales reports, so that I can analyze sales trends and make
+informed decisions.
+● As a sales analyst, when reviewing monthly performance, I want to access detailed sales
+analytics because it helps in identifying successful strategies.
+Inventory Database
+● As an employee, I can update the inventory database, so that the stock levels reflect the
+current availability of comic books.
+● In order to avoid stockouts as an employee, I can set up alerts for low stock levels.
+Customer Database
+● As a customer, I can update my personal information, so that my contact details and
+preferences are always current.
+● As a customer service representative, when assisting a customer, I want to access their
+purchase history because it helps resolve issues efficiently.
+Website Process
+● As a visitor, I can browse comic books by category, so that I can easily find comics that
+interest me.
+● In order to enhance user experience as a web developer, I can implement a search
+function.
+5.6 Use Case Diagram
+Using the system, the staff can upload and update inventory which are the most
+important activity in the system. Customers can view the inventory being uploaded and updated
+on the website. Customers can place orders in the system which are processed by the system
+and confirmed by the staff.
+5.7 Activity Diagram
+This activity diagram shows the perspective of the customer in using the system. The customer,
+after logging-in, is brought to the Home page. After browsing for items, the customer can either
+end their session or proceed to check-out. The customer has to have completed their account
+details, specifically the address for delivery. The order is received by the system and a
+confirmation is sent for verification. The staff then checks for the purchased item's availability, if
+not a backorder is created. The staff then packages the comic books with details from the
+customer purchase receipt. Then a standard shipping procedure is observed, shipping details
+reflected in the website through status order. After delivery, the customer may leave a review,
+when it is a feedback, staff may respond to let the customer know they are heard.
+5.8 Sample User Interface
+This is the home page that has the navigation bar which contains, home, notifications,
+help, signup, and login buttons. It also has a search category function that shows different
+genres. The image takes the user to a specific category page where it displays the comic books
+inside the category.
+This is the sign-in and sign-up design we want to implement that we got from the internet
+for future development. The following are the design plans for future development:
+Homepage:
+Header: Logo, navigation menu, search bar, Add to Cart Button
+Main Section: Featured comics
+Product Page:
+Product Image: Display comic book cover
+Product Details: Title, author, description, price
+Add to Cart Button: For purchasing
+Cart Page:
+Cart Items: List of selected comics
+Total Price: Sum of item prices
+Checkout Button: Proceed to payment
+Checkout Page:
+Billing Information: Input fields for customer details
+Payment Information: Input fields for payment details
+Confirm Purchase Button: Finalize order
+6 APPENDIX
+Questionnaire:
+Interview Topic: General Flow for Jonale Frialde - Business Owner
+Interview Type: Semi-structured interview
+● Can you provide an overview of Your Comic Shop Frialde's current business model and
+operations?
+● What are the main challenges or pain points you encounter in running the business?
+● How do you currently handle transactions, inventory management, and customer
+interactions?
+● What are your short-term and long-term goals for the business?
+● How do you envision the digital transformation initiative impacting your business?
+Interview Topic: Operational Flow for Jocelyn Natividad - Staff/Employee
+Interview Type: Semi-structured interview
+● Can you walk us through the current process of handling transactions and managing
+inventory?
+● What are the common issues or challenges you face during your daily tasks?
+● How do you currently communicate with customers and handle inquiries or orders?
+● Are there any manual tasks or repetitive processes that you find particularly
+time-consuming?
+● How do you think technology or automation could improve your workflow?
+Interview Topic: Customer Experience and Feedback for Customer
+Interview Type: Interview Type: Structured interview with rating scale
+Rating Questions: Scale of 1 to 4 (1 being the lowest and 4 being the highest)
+● How would you rate your overall shopping experience with Your Comic Shop Frialde?
+● How much did factors like product variety, pricing, and customer service influence your
+decision to purchase from Your Comic Shop Frialde?
+● How satisfied were you with the range of comic books available at Your Comic Shop
+Frialde?
+● How would you rate the ease of browsing products and the checkout process on Your
+Comic Shop Frialde's platform?
+● How would you rate the level of customer service provided by Your Comic Shop Frialde?
+● Did you encounter any challenges or issues during your shopping experience with Your
+Comic Shop Frialde? If so, please rate from 1 to 4 in terms of severity.
+● How likely are you to recommend Your Comic Shop Frialde to others based on your
+experience?
+Feedback Questions:
+● Are there any additional features or services you would like to see implemented to
+enhance your shopping experience with Your Comic Shop Frialde?
+● Is there anything else you would like to share about your experience or suggestions for
+improvement?

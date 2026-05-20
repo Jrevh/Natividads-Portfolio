@@ -1,0 +1,58 @@
+/* Accordion Styling for Project Cards */
+
+.accordion-container .accordion-item {
+	margin-bottom: 1em;
+	padding: 0.5em 0;
+}
+
+.accordion-title {
+	cursor: pointer;
+	font-weight: 700;
+	color: #4acaa8 !important;
+	transition: color 0.3s ease;
+	padding: 0.5em 0;
+	display: block;
+	border: 0;
+	text-decoration: underline;
+}
+
+.accordion-title:hover {
+	color: #3aaa98 !important;
+}
+
+.accordion-details {
+	transition: all 0.3s ease;
+	margin-top: 0.75em;
+	padding-left: 1em;
+	border-left: 3px solid #4acaa8;
+}
+
+.accordion-details.open {
+	display: block !important;
+}
+
+.accordion-details p {
+	margin: 0.5em 0;
+	font-size: 0.95em;
+	line-height: 1.6em;
+}
+
+/* Mobile responsive adjustments for accordion */
+@media screen and (max-width: 768px) {
+	.features article {
+		flex-direction: column;
+	}
+	
+	.features article .image {
+		margin-bottom: 1em;
+	}
+	
+	.accordion-details {
+		margin-top: 0.5em;
+		padding-left: 0.75em;
+	}
+	
+	.accordion-title {
+		font-size: 1em;
+	}
+}

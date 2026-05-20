@@ -1,0 +1,317 @@
+ISMC221 : IS PROJECT MANAGEMENT
+Final Examination
+Project Management Plan
+Group 2
+Natividad, Jearevh F.
+Naval, Matthew Cymig F.
+Maravilla, Geremy M.
+Samson, Kaye V.
+Submitted to
+Michelle Elija B. Santos
+May 19, 2025
+Project Management Plan
+Project Overview
+● Project Title: Happy Pixies Digital Event Management System
+● Project Manager: Jearevh Natividad
+● Project Start Date: April 1, 2025
+● Project End Date: December 1, 2025
+Project Objectives
+This project management plan is designed to develop a digital event management system with
+the primary goal of providing the following functions:
+● Develop a centralized system for managing client bookings and event execution.
+● Implement a real-time inventory tracking system for reusable decorations and
+supplies.
+● Improve staff scheduling and assignment through an automated workforce
+management tool.
+● Enhance financial tracking with a digital invoicing and payment management
+system.
+● Integrate digital tools for vendor coordination and logistics planning.
+● Ensure the system is mobile-friendly and accessible offline for on-site event
+management.
+Scope
+This project includes the development of features essential to digital event
+management. The key components of the Happy Pixies Digital Event Management
+System are client booking and event execution management, along with finance and
+accounting functionalities such as payments, invoicing, and budgeting. The system will
+also support staff scheduling and workforce management, as well as inventory and
+warehouse tracking to manage reusable supplies. Procurement and supplier
+coordination, logistics and event-day management, and customer relationship
+management (CRM) will be integral parts of the platform. Additionally, the plan includes
+elements of digital transformation, including the integration of tools like Google
+Workspace and support for online inquiries and contract management.
+The project will not include e-commerce functionalities beyond those related to
+event bookings. It will also exclude the development of a full-scale enterprise resource
+planning (ERP) system, as well as the implementation of advanced AI-based automated
+decision-making for event planning.
+Work Breakdown Structure
+Figure 1: Happy Pixies Digital Event Management System Work Breakdown Structure
+Figure 1.1: Project Initiation (WBS)
+Figure 1.2: Requirement Analysis (WBS)
+Figure 1.3: System Design (WBS)
+Figure 1.4: Development (WBS)
+Figure 1.5: Testing & QA (WBS)
+Figure 1.6: Deployment (WBS)
+Figure 1.7: Project Closure (WBS)
+Deliverables
+● Web-based Event Management System (EMS)
+● Mobile-friendly interface for on-site management
+● Digital contract and invoice generation module
+● Real-time inventory tracking system
+● Staff scheduling and role assignment tool
+● Vendor coordination and logistics module
+Stakeholders
+Name Role Responsibility
+Michael U. Naval Co-owner Project Sponsor & Business Process Consultant
+Jearevh
+Natividad
+Project Manager Oversee development and implementation
+Geremy Maravilla Developer System architecture and development
+Kaye Samson UX/UI Designer Interface design and user experience optimization
+Matthew Naval Tester System testing and quality assurance
+Timeline
+Phase Activities Start Date End Date Duration Milestone
+Project Initiation Kick-off meeting,
+stakeholder
+alignment, team
+assignments
+April 1,
+2025
+April 10,
+2025
+2 weeks Project Charter
+Approved
+Requirements
+Analysis
+Gather business
+requirements, user
+stories, and
+functional specs
+April 11,
+2025
+May 10,
+2025
+1 month Requirements
+Document Finalized
+System Design Create UI mockups,
+system architecture,
+and database
+schema
+May 11,
+2025
+June 15,
+2025
+5 weeks Design Approved
+Development
+Phase 1
+Core modules:
+booking, inventory,
+scheduling
+June 16,
+2025
+August 15,
+2025
+2 months Core Features
+Developed
+Development
+Phase 2
+Add-on modules:
+vendor
+coordination,
+invoicing, mobile
+interface
+August 16,
+2025
+September
+30, 2025
+1.5 months Full System Ready
+Testing & QA Unit testing,
+integration testing,
+UAT with client
+October 1,
+2025
+October
+31, 2025
+1 month QA Sign-Off
+Deployment &
+Training
+System launch,
+user training,
+documentation
+handoff
+November
+1, 2025
+November
+30, 2025
+1 month System Deployed
+Project Closure Project evaluation,
+final report,
+knowledge transfer
+December
+1, 2025
+December
+15, 2025
+2 weeks Project Closed
+Gantt Chart
+Figure 2: Gantt Chart of Happy Pixies Digital Event Management System
+Budget
+Resource Estimated Cost
+Software Development (Web & Mobile) PHP 500,000 - 1,000,000
+Hardware (Servers, Hosting, Cloud) PHP 50,000 - 100,000
+Personnel (Developers, Designers, Testers) PHP 300,000 - 600,000
+Training (Staff & Users) PHP 50,000
+Other Costs (Licensing, Maintenance) PHP 100,000
+Total Budget PHP 1M - 1.8M
+Communication Plan
+Effective communication is vital for the success of the Happy Pixies Event Management
+System. The project team will use various channels and frequencies depending on the
+stakeholder and project phase.
+Communication
+Type
+Frequency Methods Stakeholders
+Internal Team
+Communication
+Weekly stand-up
+meetings (Every
+Monday)
+Google Meet,
+Slack, Trello
+Developers, Tester, UI/UX
+Designer, Project Manager
+Sponsor
+Communication
+Bi-weekly updates Email
+summaries,
+video calls
+Project Manager, Project
+Sponsor
+Client
+Feedback/Testing
+After major milestones
+(e.g., Design Approval,
+Beta Release)
+Google Forms,
+Zoom feedback
+sessions
+Project Sponsor, Client-side
+staff, UI/UX Designer, Tester
+Documentation
+and Reports
+Monthly progress reports Google Docs
+shared folder
+Project Sponsor, Project
+Manager, Team
+Quality Management
+To ensure the highest level of quality throughout the development of the Event Management
+System, the following processes will be implemented:
+● Quality Standards
+○ Adherence to ISO/IEC 25010 Software Quality Standards
+○ User satisfaction, system reliability, and mobile responsiveness are key quality
+indicators
+● Quality Assurance Activities
+○ Regular code reviews using GitHub
+○ Design reviews with UX/UI mockups
+○ Weekly testing sessions led by the QA Tester
+○ Requirement traceability matrix to ensure all deliverables are met
+● Quality Control Procedures
+○ Automated testing scripts for form validations and data processing
+○ Manual testing for usability and UI responsiveness
+○ UAT (User Acceptance Testing) in October 2025
+● Documentation
+○ Test cases, bug reports, QA logs maintained using Google Sheets
+Human Resources
+Below is an outline of team roles, responsibilities, and skills required:
+Team
+Member
+Role Responsibilities Required Skills
+Jearevh
+Natividad
+Project Manager I,
+Developer
+Oversees project, assigns
+tasks, writes code
+Leadership, PHP, MySQL
+Geremy
+Maravilla
+Developer Backend logic and
+database implementation
+Laravel, MySQL, API
+integration
+Kaye Samson UX/UI Designer Designs wireframes and
+final UI
+Figma, UX principles,
+responsiveness
+Matthew Naval Tester Conducts QA tests and
+ensures system reliability
+Manual testing, test
+documentation
+Michael Naval Sponsor/Advisor Approves progress and
+provides business insights
+Business consulting
+Responsibility Assignment Matrix (RAM)
+Task Jearevh Geremy Kaye Matthew Michael
+Project Planning R C C C A
+System Development A R C I I
+UI/UX Design C I R C I
+Testing C C C R I
+Approval & Review I I I I A
+Legend: R - Responsible, A - Accountable, C - Consulted, I - Informed
+Risks
+Risk Management Process
+1. Risk Identification – Conducted during planning and design stages.
+2. Risk Analysis – Assess likelihood and impact.
+3. Risk Mitigation Planning – Define actions to reduce or eliminate risk.
+4. Monitoring and Review – Weekly updates and risk status review
+Risk Assessment Matrix
+Risk Probability Impact Mitigation Strategy
+Staff resistance to
+the new system
+Medium High Conduct orientation and involve them in
+testing
+Data migration
+issues
+High High Validate data early and use data
+templates
+Technical bugs in
+deployment
+Medium High Conduct thorough testing and phased
+rollout
+Internet downtime
+during events
+High Medium Ensure offline access is available
+Budget overrun Low High Maintain contingency fund and regular
+budget tracking
+Closure
+The closure phase will ensure the project is formally finalized and evaluated:
+● Final Deliverables
+○ Fully functional EMS (web and mobile)
+○ Documentation (user manual, developer guide)
+○ Final QA reports and testing results
+● Client Acceptance
+○ Final demonstration and sign-off by the Project Sponsor
+● Post-Implementation Review
+○ A retrospective meeting to evaluate successes, failures, and lessons
+learned
+● Project Archive
+○ All documentation, code, and reports will be stored in a shared Google
+Drive folder accessible to the sponsor and team
+● Transition to Maintenance
+○ Assign a point-of-contact for ongoing support and prepare a knowledge
+transfer session with the client's staff
+Approval
+By signing this document, the following individuals acknowledge and approve the
+project.
+Project Sponsor:
+Michael U. Naval
+Co-owner, Happy Pixies
+[Signature]
+3/29/25
+Project Manager:
+Jearevh Natividad
+Project Manager
+[Signature]
+3/29/25
+Subject Adviser:
+Michelle Elijah Santos
+Subject Adviser, Project Management
+[Signature]
+3/29/25
