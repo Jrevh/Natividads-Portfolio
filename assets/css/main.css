@@ -2737,6 +2737,18 @@ input, select, textarea {
 		display: block;
 		width: 100%;
 		vertical-align: middle;
+		text-align: center; /* center titles under icons */
+	}
+
+	.features article .inner .accordion-title {
+	    text-align: center;
+	    margin-top: 0.25rem;
+	}
+
+	.features article .inner .accordion-details {
+	    text-align: left; /* keep details left-aligned for readability */
+	    margin: 0.6rem auto 0 auto;
+	    max-width: 56rem;
 	}
 
 /* Header */
