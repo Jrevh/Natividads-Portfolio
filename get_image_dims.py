@@ -1,6 +1,6 @@
 from PIL import Image
 
-img = Image.open('Projects/header image.png')
+img = Image.open('Projects/header-image.png')
 width = img.width
 height = img.height
 aspect_ratio = width / height
