@@ -2679,6 +2679,40 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	/* Mobile menu toggle styles */
+	@media screen and (max-width: 980px) {
+		#navPanelToggle {
+			position: fixed;
+			top: 1em;
+			left: 1em;
+			z-index: 10000;
+			background: #222;
+			color: #fff;
+			padding: 0.5em 1em;
+			border-radius: 4px;
+			font-size: 0.9em;
+			text-decoration: none;
+			display: block;
+		}
+
+		#titleBar {
+			display: block;
+		}
+		#header {
+			display: none;
+		}
+		#header.visible {
+			display: block;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 80%;
+			height: 100%;
+			z-index: 9999;
+			overflow-y: auto;
+		}
+	}
+
 /* Features */
 
 	.features article {
@@ -3093,7 +3127,6 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
 				height: 44px;
 				left: 0;
 				position: fixed;

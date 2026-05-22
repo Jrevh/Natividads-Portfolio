@@ -81,11 +81,13 @@
 				.each(function() {
 
 					var	$this = $(this),
-						id = $this.attr('href'),
-						$section = $(id);
+					id = $this.attr('href');
 
-					// No section for this link? Bail.
-						if ($section.length < 1)
+				// External link? Bail.
+					if (id.charAt(0) != '#')
+						return;
+
+				var $section = $(id);
 							return;
 
 					// Scrollex.
