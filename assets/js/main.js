@@ -57,7 +57,7 @@
 	// Header Panel.
 
 		// Nav.
-			var $nav_a = $nav.find('a');
+			var $nav_a = $nav.find('a[href^="#"]');
 
 			$nav_a
 				.addClass('scrolly')
@@ -88,7 +88,6 @@
 						return;
 
 				var $section = $(id);
-							return;
 
 					// Scrollex.
 						$section.scrollex({
